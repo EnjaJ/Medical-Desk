@@ -1,0 +1,182 @@
+
+
+
+nav{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    background: #09425A;
+}
+   
+    .logo{
+    padding: 5px 0 0 50px;
+    width: px;
+    height: 40px;
+}
+
+.dropdown {
+    
+
+    position: absolute;
+    left: 82.35%;
+    right: 100%;
+    top: 50%;
+    bottom: 40.64%;
+    
+   
+   
+  }
+  
+  .dropdown1-content {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #F0F4F5;
+    border-radius: 6px;
+   
+  }
+  .input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+    color: #09425A;
+}
+  
+.input-field {
+    left: 0pt;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+   background-color:#D0D8DA;
+   
+}
+.container{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    
+   
+
+background: #D0D8DA;
+
+}
+
+  
+  .dropdown1 {
+    position: absolute;
+     left: 75%;
+     right: 50%;
+     top: 60%;
+     bottom: 30%;
+     width: 75px;
+     height: 50px;
+     box-sizing: border-box;
+
+
+
+
+   }
+   .dropdown1-content{
+    background: #D0D8DA;
+   }
+   .container1{
+    left: 40%;
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    
+   
+
+background: #0FB7B6;
+
+}
+.dropdown2-content{
+    background: #0FB7B6; 
+}
+
+.data{
+    border: 1px;
+    background:rgba(208, 216, 218, 1);
+    width: 70px;
+    height: 25px; 
+    text-align: center; 
+    font-size:14px ;
+    border-radius: 5px;
+    display:inline-block;
+    color: gray;
+
+}
+.data1{
+    border: 1px;
+    background:rgba(15, 183, 182, 1);
+    width: 70px;
+    height: 25px; 
+    text-align: center; 
+    font-size:14px ;
+    border-radius: 5px;
+    display:inline-block;
+    color: white;
+}
+.data2{
+
+    width: 70px;
+    height: 25px; 
+    text-align: center; 
+    font-size:14px ;
+    border-radius: 5px;
+    display:inline-block;
+    border: 2px solid #0FB7B6;
+box-sizing: border-box;
+border-radius: 5px;
+color:#0FB7B6 ;
+   
+
+}
+.emri{
+    display:inline-block;
+    border: 2px solid #0FB7B6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:#0FB7B6 ;
+}
+.icon1 {
+    padding: 10px;
+    min-width: 40px;
+    color:#0FB7B6  ;
+}
+.icon2 {
+    padding: 10px;
+    min-width: 40px;
+    color: white;
+}
+.input-field1 {
+    
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+   background-color:#0FB7B6;
+   
+}
+.pagesa{
+    background-color: rgba(240, 244, 245, 1);
+}
+.inputWithIcon input[type="text"] {
+    padding-left: 60px;
+    display: inline;
+  }
+ .footer{
+     
+ }
+ 

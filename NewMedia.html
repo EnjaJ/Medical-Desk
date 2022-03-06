@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html xmlns="http://www.w3.org/1999/xhtml"></html>
+<head>
+    <title>Medical Desk</title>
+    <link rel="stylesheet" type="text/css" href="NewMedia.css">
+    <link rel="stylesheet" 
+    href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawsome.com/releases/v6.0.0/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2-rc.1/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2-rc.1/js/select2.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/css/intlTelInput.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var code = "+39"; // Assigning value from model.
+            $('#txtPhone').val(code);
+            $('#txtPhone').intlTelInput({
+                autoHideDialCode: true,
+                autoPlaceholder: "ON",
+                dropdownContainer: document.body,
+                formatOnDisplay: true,
+                hiddenInput: "full_number",
+                initialCountry: "auto",
+                nationalMode: true,
+                placeholderNumberType: "MOBILE",
+                preferredCountries: ['US'],
+                separateDialCode: true
+            });
+            $('#btnSubmit').on('click', function () {
+                var code = $("#txtPhone").intlTelInput("getSelectedCountryData").dialCode;
+                var phoneNumber = $('#txtPhone').val();
+                var name = $("#txtPhone").intlTelInput("getSelectedCountryData").name;
+                alert('Country Code : ' + code + '\nPhone Number : ' + phoneNumber + '\nCountry Name : ' + name);
+            });
+        });
+    </script>
+</head>
+<body>
+   
+    
+        <nav>
+            <img class="logo " src="./detyra/untitled folder/logo.png">
+    
+            
+            <div class="dropdown">
+                
+
+                <div class="dropdown-content">
+                   
+                
+                <select id="countries">
+                    <option></option>
+                </select>
+  
+                    </div>
+                    </div>
+                
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            var options = [{ id: 'IT', text: 'Italy'},{ id: 'FR', text: 'France'}];
+                            function formatCountry(country){
+                                if (!country.id) {
+                                    return country.text;
+                                }
+                                var $country = $(
+                                    '<span class="flag-icon flag-icon-'+ country.id.toLowerCase() +' flag-icon-squared"></span>' + '<span style="margin-left:10px;">'+ country.text+'</span>'
+                                );
+                                return $country;
+                            };
+                        });
+                        </script>
+
+  
+   
+</nav>
+<br>
+        <h1 style="color: #09425A;">PRENOTA SERVIZIOIN STORE</h1>
+        <p style="color: #09425A;">All' interno della struture e deinmezzi ParkinGo é necessario indossare la marscheria e rispettare la distanza di sicurezza inteepersonale. </p>
+        <h1 style="color: #09425A;">01.Prenota ore i tamponi in Drive-in</h1>
+        <div style="max-width:400px;margin:auto">
+            <div class="input-icons">
+                <i class="fa fa-map-marker icon"></i>
+                <p style= "color: #09425A;" class="input-field"  >ParkingGo Malpensa</p>
+            </div>
+            </div>
+            <h1 style="color: #09425A;">02. Prenota ora i tamponi in Drive-in</h1>
+        <div class="container">
+            <p style= "color:white;text-align: left;font-family: Poppins" >Tampone Rapido Antigenico </p>
+            <p style="font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 54px;color: white;">50$</p>
+<p style=" position: absolute;
+left: 65%;
+right: 25%;
+top: 45%;
+bottom: 50%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;">Qta</p>
+ <div class="dropdown1" >
+    <div class="dropdown1-content">
+    <select name="sasia" id="sasia">
+        <option value="0">0</option>
+    </select>
+    </div>
+</div>
+        </div>
+
+    </div>
+    <div class="container1">
+            <p style= "color:white;font-family: Poppins" > Tampone Molecolare PCR </p>
+            <p style="font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 54px;color: white;">95$</p>
+<p style=" position: absolute;
+left: 65%;
+right: 25%;
+top: 45%;
+bottom: 50%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;">Qta</p>
+ <div class="dropdown1" >
+    <div class="dropdown2-content">
+    <select name="sasia" id="sasia">
+        <option value="0">0</option>
+    </select>
+    </div>
+</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+  <div class="date">
+    <h1 style="color: #09425A;">03. Scegli fra le date e orari disponibili</h1>
+    <p style="color: #09425A;">Date</p>
+    <p class="data">Lunedi27</p>
+    <p class="data">Lunedi27</p>
+    <p class="data1">Lunedi27</p>
+    <p class="data2">Lunedi27</p>
+    <p class="data2">Lunedi27</p>
+    <p class="data2">Lunedi27</p>
+    <p class="data2">Lunedi27</p>
+    <p class="data2">Lunedi27</p>
+    <p class="data2">Lunedi27</p>
+    <p class="data2">Lunedi27</p>
+
+    
+</div>
+<div>
+    <p>Orari</p>
+    <p class="data">10:00</p>
+    <p class="data">10:00</p>
+    <p class="data1">10:00</p>
+    <p class="data2">10:00</p>
+    <p class="data2">10:00</p>
+    <p class="data2">10:00</p>
+    <p class="data2">10:00</p>
+    <p class="data2">10:00</p>
+    <p class="data2">10:00</p>
+</div>
+<h1>04. Dati anagrafici</h1>
+<form>
+<div style="float:left;  width:40%">
+    
+        Nome<br>
+        <input class="emri"type="text" value=""><br>
+        Email<br>
+        <input class="emri"type="text" value="">
+        <p style="font-size: 10px;">La conferma verrà invita a questa mail. 
+            Si richiede di utilizzare la mail propria personale non mail aziendali</p>
+            Nazionalita<br>
+            <input class="emri"type="text" value=""><br> 
+            Data di nascito<br>
+        <input class="emri"type="text" value="DD/MM/YYYY"><br> 
+        Comune residenca<br>
+        <input class="emri"type="text" value=""><br>
+        Indirizzo<br>
+        <input class="emri"type="text" value=""><br>
+   
+    </div>
+    <div style="float:left;width:60%">
+        Cogname<br>
+        <input class="emri"type="text" value=""><br>
+        Celluare<br>
+        <input class="emri"id="txtPhone"type="tel" value=""><br>
+        Code di fiscale<br>
+        <input class="emri"type="text" value=""><br>
+        Sesso<br>
+        <input type="radio"name="Sesso"value="M">
+        M
+        <input type="radio"name="Sesso"value="F">
+        F<br>
+        Cap<br>
+        <input class="emri"type="text" value=""><br>
+        </div><br>
+        <div style="float:right;width:100%;">
+            <input type="checkbox">
+            Ho preso visione dell’informativa sul trattamento dei miei dati personali e i Termini e Condizioni *(leggi)<br> 
+            <input type="checkbox">
+            Ho preso visione dell’informativa sul trattamento dei miei dati personali e do il consenso al loro trattamento da parte di Medispa S.r.l. quale unico Responsabile Esterno del trattamento dei dati sanitari. * (leggi)
+        </div>
+        <div style="float:right;width:100%;"><br>
+        <input class="data1"type="submit" value="AVANTI">
+    </div>
+
+</form>
+<h1 style="float:right;width:100%;">05. Tipo di ricevuta</h1>
+<p style="float:right;width:100%;">A chi dovrà essere intestata la fattura?</p>
+<div  style="max-width:400px;margin:auto;float:left;width: 90px;">
+    <div class="input-icons">
+        <i class="fa fa-group icon1"></i>
+        <p style= "color: #0FB7B6;" class="input-field"  >Azienda</p>
+    </div>
+    </div>
+    
+    <div  style="max-width:400px;margin:auto;float:left;width: 90px;">
+        <div class="input-icons">
+            <i class="fa fa-user icon2"></i>
+            <p style= "color: white;"class="input-field1"  >Privato</p><br>
+        </div>
+        </div>
+      
+        <form style="float:right;width:100%;">
+        
+            <div style="float:left;  width:40%">
+
+        Nome<br>
+        <input class="emri"type="text" value=""><br>
+        Codice Fiscale<br>
+        <input class="emri"type="text" value=""><br>   
+            Indirizzo<br>
+        <input class="emri"type="text" value=""><br> 
+        Cap<br>
+        <input class="emri"type="text" value=""><br>
+        Nazione<br>
+        <input class="emri"type="text" value=""><br>
+   
+            </div>
+            <div style="float:left;  width:60;">
+                Cogname<br>
+        <input class="emri"type="text" value=""><br>
+        Email invio fattura<br>
+        <input class="emri"type="text" value=""><br>   
+            Citta<br>
+        <input class="emri"type="text" value=""><br> 
+        Provinzia<br>
+        <input class="emri"type="text" value=""><br>
+       
+            </div>
+            <div style="float:right;width:100%;"><br>
+                <input class="data1"type="submit" value="VERIFICA">
+            </div>
+        </form>
+        <div style="float:right;width:100%;">
+            <h1>06.Metoda di pagamento</h1>
+            <input type="radio"name="Pay"value="y">
+            Carta di credito   <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i><i class='fa fa-cc-amex icon'></i> 
+
+        </div>
+        <div  class="pagesa" style="float:right;width:100%;">
+            Provinzia<br>
+        <input class="emri"type="text" value=""><br>
+      
+        <div class="inputWithIcon"style="float:left;  width:40;">
+            Data di scandeza<br>
+        <input class="emri"type="text" value="">
+        <i class='fa fa-calendar'aria-hidden="true"></i> 
+        
+    </div>
+
+    <div class="inputWithIcon"style="float:left;  width:60;">
+         CVC/CVV<br>
+      <input class="emri"type="text" value="">
+      <i class='fa fa-calendar'aria-hidden="true"></i> <br>
+    
+</div>
+<div style="float:right;width:100%;">
+    Nome sualla carta <br>
+    <input class="emri"type="text" value=""><br>
+</div>
+            </div>
+            <div style="float:right;width:100%;">
+                <input type="radio"name="Pay"value="y">
+                PayPal <i class="fa fa-paypal"></i> Che cos’e PayPal?<br>
+                <input type="radio"name="Pay"value="y">
+                GooglePay<br>
+                <input type="checkbox">Ho preso visione dell’informativa sul trattamento dei miei dati personali e i Termini e Condizioni *(leggi) <br>
+                <input type="checkbox">Ho preso visione dell’informativa sul trattamento dei miei dati personali e do il consenso al loro trattamento da parte di Medispa S.r.l. quale unico Responsabile Esterno del trattamento dei dati sanitari. * (leggi)<br>
+                <input type="checkbox">Ho preso visione dell’informativa sul trattamento dei miei dati personali e do il consenso al loro trattamento da parte di Medispa S.r.l. quale unico Responsabile Esterno del trattamento dei dati sanitari. * (leggi)<br>
+                <input class="data1"type="submit" value="CONFERMA E PAGA">
+            </div>
+
+</body>
+<footer>
+    
+</footer>
+</html>
